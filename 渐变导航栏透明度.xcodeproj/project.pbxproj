@@ -13,6 +13,8 @@
 		FD1E1B5E1D76B722000C5559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1E1B5C1D76B722000C5559 /* Main.storyboard */; };
 		FD1E1B601D76B722000C5559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1E1B5F1D76B722000C5559 /* Assets.xcassets */; };
 		FD1E1B631D76B722000C5559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1E1B611D76B722000C5559 /* LaunchScreen.storyboard */; };
+		FD1E1B6C1D76B769000C5559 /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E1B6B1D76B769000C5559 /* UINavigationBar+Background.m */; };
+		FD4A30191D783BC50055195F /* TableViewBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A30181D783BC50055195F /* TableViewBgView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FD1E1B5F1D76B722000C5559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD1E1B621D76B722000C5559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD1E1B641D76B722000C5559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1E1B6A1D76B769000C5559 /* UINavigationBar+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Background.h"; sourceTree = "<group>"; };
+		FD1E1B6B1D76B769000C5559 /* UINavigationBar+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Background.m"; sourceTree = "<group>"; };
+		FD4A30171D783BC50055195F /* TableViewBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewBgView.h; sourceTree = "<group>"; };
+		FD4A30181D783BC50055195F /* TableViewBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewBgView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FD1E1B571D76B722000C5559 /* AppDelegate.m */,
 				FD1E1B591D76B722000C5559 /* ViewController.h */,
 				FD1E1B5A1D76B722000C5559 /* ViewController.m */,
+				FD4A30171D783BC50055195F /* TableViewBgView.h */,
+				FD4A30181D783BC50055195F /* TableViewBgView.m */,
+				FD1E1B6A1D76B769000C5559 /* UINavigationBar+Background.h */,
+				FD1E1B6B1D76B769000C5559 /* UINavigationBar+Background.m */,
 				FD1E1B5C1D76B722000C5559 /* Main.storyboard */,
 				FD1E1B5F1D76B722000C5559 /* Assets.xcassets */,
 				FD1E1B611D76B722000C5559 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1E1B5B1D76B722000C5559 /* ViewController.m in Sources */,
+				FD1E1B6C1D76B769000C5559 /* UINavigationBar+Background.m in Sources */,
+				FD4A30191D783BC50055195F /* TableViewBgView.m in Sources */,
 				FD1E1B581D76B722000C5559 /* AppDelegate.m in Sources */,
 				FD1E1B551D76B722000C5559 /* main.m in Sources */,
 			);
@@ -300,6 +312,7 @@
 				FD1E1B691D76B722000C5559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
