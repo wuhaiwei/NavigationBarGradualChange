@@ -24,11 +24,13 @@
 - (instancetype)init
 {
     self = [super init];
-    if (self) {
-        [self addSubview:self.bottomView];
-        [self addSubview:self.imageView];
+    if (!self) {
+        return nil;
     }
-    return nil;
+    
+    [self addSubview:self.imageView];
+    [self addSubview:self.bottomView];
+    return self;
 }
 
 #pragma mark - setter getter
@@ -43,7 +45,7 @@
 - (UIView *)bottomView
 {
     if (!_bottomView) {
-        _bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, kScreenHeight - 150, kScreenWidth, 150)];
+        _bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, kScreenHeight - 250, kScreenWidth, 250)];
         _bottomView.backgroundColor = [UIColor whiteColor];
     }
     return _bottomView;
@@ -58,6 +60,6 @@
         CGFloat imageHeight = kScreenWidth * imageSize.height / imageSize.width;
         _imageView.frame = CGRectMake(0, 0, kScreenWidth, imageHeight);
     }
-
 }
+
 @end

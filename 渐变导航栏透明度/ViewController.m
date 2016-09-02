@@ -31,7 +31,8 @@
     [self.view addSubview:self.tableView];
     
     TableViewBgView *bgView = [[TableViewBgView alloc] init];
-    bgView.bgImage = [UIImage imageNamed:@"scenery"];
+    UIImage *image = [UIImage imageNamed:@"scenery"];;
+    bgView.bgImage = image;
     _tableView.backgroundView = bgView;
 }
 
