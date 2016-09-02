@@ -6,10 +6,16 @@
 //  Copyright © 2016年 wanglibank. All rights reserved.
 //
 
+/**
+ *  tableView的backgroundView
+ */
 #import <UIKit/UIKit.h>
 
 @interface TableViewBgView : UIView
 
+/**
+ *  背景图片的名字
+ */
 @property (nonatomic, strong) UIImage *bgImage;
 
 @end
